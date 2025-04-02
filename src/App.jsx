@@ -1,13 +1,13 @@
-import Nav  from "./Navigation/Nav";
+import Navigation   from "./Navigation/Nav";
 
 function App() {
 
   return (
     <>
-    <Nav/>;
-    
+    <h1><Navigation/></h1>
+
     </>
   )
 }
 
-export default App  
+export default App  ;
