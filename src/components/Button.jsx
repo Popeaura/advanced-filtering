@@ -1,5 +1,7 @@
-export default function Button() {
+function Button() {
   return (
     <div>Buttons</div>
   )
 }
+
+export default Button;
