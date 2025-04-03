@@ -2,9 +2,13 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <div>
-      Nav
-    </div>
+      <nav>
+        <div className="nav-container">
+        <input type="text"
+        className ="search-input"
+        placeholder="Enter Your Search Shoes" />
+        </div>
+      </nav>
   )
 }
 
