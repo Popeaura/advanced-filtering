@@ -1,9 +1,9 @@
-import Nav from "./Navigation/Nav";
+import Navigation from "./Navigation/Nav";
 
 function App() {
   return (
     <>
-      <Nav/>
+      <Navigation/>
     </>)
 }
 
