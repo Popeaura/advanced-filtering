@@ -11,13 +11,13 @@ function Nav() {
         placeholder="Enter Your Search Shoes" />
         </div>
         <div className="profile-container">
-          <a href="">
+          <a href="#">
             <FiHeart className="nav-icons"/>
           </a>
-          <a href="">
+          <a href="#">
             <AiOutlineShoppingCart className="nav-icons"/>
           </a>
-          <a href="">
+          <a href="#">
             <AiOutlineUserAdd className="nav-icons"/>
           </a>
         </div>
