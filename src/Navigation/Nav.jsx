@@ -12,7 +12,10 @@ function Nav() {
         </div>
         <div className="profile-container">
           <a href="">
-            <FiHeart/>
+            <FiHeart className="nav-icons"/>
+          </a>
+          <a href="">
+            <AiOutlineShoppingCart className="nav-icons"/>
           </a>
         </div>
       </nav>
