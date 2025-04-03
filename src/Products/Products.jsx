@@ -1,9 +1,11 @@
 import '/Products.css'
-
-export default function products() {
+ function products() {
   return (
     <div>
       Products
     </div>
   )
 }
+
+
+export default products;
