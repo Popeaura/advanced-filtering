@@ -8,6 +8,9 @@ function Nav() {
         className ="search-input"
         placeholder="Enter Your Search Shoes" />
         </div>
+        <div className="profile-container">
+          <a href=""></a>
+        </div>
       </nav>
   )
 }
