@@ -1,9 +1,11 @@
 import "./Nav.css"
 
-export default function Nav() {
+function Nav() {
   return (
     <div>
       Nav
     </div>
   )
 }
+
+export default Nav;
