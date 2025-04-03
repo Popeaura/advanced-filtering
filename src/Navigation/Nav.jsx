@@ -11,7 +11,9 @@ function Nav() {
         placeholder="Enter Your Search Shoes" />
         </div>
         <div className="profile-container">
-          <a href=""></a>
+          <a href="">
+            <FiHeart/>
+          </a>
         </div>
       </nav>
   )
