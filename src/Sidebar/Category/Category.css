@@ -52,11 +52,3 @@
 
 .sidebar-label-container input:checked ~ .checkmark::after{
     display: block;
-}
-
-.sidebar-label-container .checkmark::after{
-    top: 6.4;
-    left: 6.4;
-    width: 7px;
-    height: 7px;
-}
