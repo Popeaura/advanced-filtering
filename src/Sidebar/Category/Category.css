@@ -54,4 +54,8 @@
     display: block;
 }
 
-.sidebar-label-container .checkmark::after{}
+.sidebar-label-container .checkmark::after{
+    top: 6.4;
+    left: 6.4;
+    
+}
