@@ -32,7 +32,6 @@ import "./Category.css";
         <span className="checkmark"></span>Heels
       </label>
       </div>
-     
     </div>
   )
 }

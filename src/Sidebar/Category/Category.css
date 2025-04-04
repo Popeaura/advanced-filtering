@@ -43,3 +43,9 @@
 .sidebar-label-container input:checked ~.checkmark{
     background-color: #2196f3;
 }
+
+.checkmark::after{
+    content:"";
+    position: absolute;
+    display: none;
+}
