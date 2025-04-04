@@ -50,4 +50,6 @@
     display: none;
 }
 
-.sidebar-label-container input:checked ~ .checkmark::after{}
+.sidebar-label-container input:checked ~ .checkmark::after{
+    display: block;
+}
