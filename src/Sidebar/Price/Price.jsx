@@ -2,7 +2,7 @@ import "./Price.css"
 
 function Price() {
   return (
-    <div>
+    <div className="ml">
       Price
     </div>
   )
