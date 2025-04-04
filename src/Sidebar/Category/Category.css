@@ -40,6 +40,6 @@
     background-color: #ccc;
 }
 
-.sidebar-label-container:hover input ~ .checkmark{
+.sidebar-label-container input:checked ~.checkmark{
     background-color: #ccc;
 }
