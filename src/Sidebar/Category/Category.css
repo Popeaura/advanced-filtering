@@ -53,3 +53,5 @@
 .sidebar-label-container input:checked ~ .checkmark::after{
     display: block;
 }
+
+.sidebar-label-container .checkmark::after{}
