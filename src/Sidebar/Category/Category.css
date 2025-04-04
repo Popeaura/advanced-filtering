@@ -49,3 +49,5 @@
     position: absolute;
     display: none;
 }
+
+.sidebar-label-container input:checked ~ .checkmark::after{}
