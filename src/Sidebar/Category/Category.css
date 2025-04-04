@@ -35,3 +35,7 @@
     background-color: #eee;
     border-radius: 50%;
 }
+
+.sidebar-label-container:hover input ~ .checkmark{
+    background-color: #ccc;
+}
