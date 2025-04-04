@@ -36,5 +36,4 @@ import "./Category.css";
   )
 }
 
-
 export default Category;
