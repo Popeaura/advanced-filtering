@@ -52,3 +52,13 @@
 
 .sidebar-label-container input:checked ~ .checkmark::after{
     display: block;
+}
+
+.sidebar-label-container .checkmark::after{
+    top: 6.4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
