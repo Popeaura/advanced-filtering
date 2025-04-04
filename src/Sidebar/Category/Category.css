@@ -41,5 +41,5 @@
 }
 
 .sidebar-label-container input:checked ~.checkmark{
-    background-color: #ccc;
+    background-color: #2196f3;
 }
