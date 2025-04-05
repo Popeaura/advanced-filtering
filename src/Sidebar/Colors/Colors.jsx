@@ -25,6 +25,11 @@ const Colors = () => {
           <input type="radio" name="test2" />
           <span className="checkmark"></span>White
       </label>
+      
+      <label className="sidebar-label-container">
+          <input type="radio" name="test2" />
+          <span className="checkmark"></span>White
+      </label>
     </div>
   );
 }
