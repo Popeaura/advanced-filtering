@@ -1,7 +1,7 @@
 const Colors = () => {
   return (
     <div>
-        <label className="sidebar-label-container">
+        <label className="sidebar-label-container color-title">
           <input type="radio" name="test2" />
           <span className="checkmark"></span>All
       </label>
