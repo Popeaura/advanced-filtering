@@ -8,7 +8,7 @@ const Colors = () => {
 
       <label className="sidebar-label-container">
           <input type="radio" name="test2" />
-          <span className="checkmark"></span>$0 - %50
+          <span className="checkmark"></span>Black
       </label>
 
       <label className="sidebar-label-container">
