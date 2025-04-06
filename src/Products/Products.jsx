@@ -13,8 +13,6 @@ import "./Products.css";
   <Card/>
   <Card/>
   <Card/>
-  <Card/>
- 
   </section>
   </>
   )
