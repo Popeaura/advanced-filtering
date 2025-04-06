@@ -6,8 +6,7 @@ import "./Products.css";
   return (
   <>
   <section className="card-container">
-  
-    
+  <Card/>
   </section>
   </>
   )
