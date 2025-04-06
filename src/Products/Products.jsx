@@ -7,14 +7,12 @@ import "./Products.css";
   <section className="card-container">
   <Card/>
   <Card/>
-
   <Card/>
-
-
   <Card/>
-
-
-
+  <Card/>
+  <Card/>
+  <Card/>
+  <Card/>
   <Card/>
 
 
