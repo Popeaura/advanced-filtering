@@ -6,7 +6,7 @@ function Category() {
       <h2 className="sidebar-title">Category</h2>
 
       <div>
-        
+        <Input/>
       </div>
     </div>
   );
