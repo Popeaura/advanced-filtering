@@ -1,4 +1,5 @@
 import "./Category.css";
+import "../../components/Input";
 
 function Category() {
   return (
