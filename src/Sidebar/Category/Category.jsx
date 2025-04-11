@@ -11,8 +11,7 @@ function Category() {
         <Input/>
         <Input/>
         <Input/>
-        <Input/>
-        <Input/>
+
 
       </div>
     </div>
