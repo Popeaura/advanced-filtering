@@ -1,3 +1,4 @@
+import Input from "../../components/Input";
 import "./Price.css"
 
 function Price() {
