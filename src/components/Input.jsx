@@ -6,7 +6,7 @@
     <span className="checkmark"></span>All
     </label>
 
-  )
+  );
 }
 
 export default Input;
