@@ -1,5 +1,5 @@
 import "./Category.css";
-import "../../components/Input";
+import Input from "../../components/Input";
 
 function Category() {
   return (
