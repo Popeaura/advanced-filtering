@@ -60,6 +60,8 @@ function App() {
       img = {img}
       title = {title}
       star = {star}
+      reviews = {reviews}
+      newPrice = {newPrice}
     />    
     ))
   }
