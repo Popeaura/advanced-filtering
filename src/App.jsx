@@ -11,16 +11,17 @@ import Category from "./Sidebar/Category/Category";
 
 function App() {
   const [selectedCategory, setselectedCategory] = useState(null)
-
-//------input filter------
   const [query, setQuery] = useState("")
 
+
+
+//------input filter------
   const handleInputChange = event => {
     setQuery(event.target.value)
   }
 
-  const filteredItems = products.filter(product => product.title.
-    toLowerCase().indexOf(query.toLowerCase()!== -1)
+  const filteredItems = products.filter(product =>
+     product.title.toLowerCase().indexOf(query.toLowerCase())!== -1
   );
 
 
@@ -54,7 +55,7 @@ function App() {
          title === selected);
     }
 
-    return filtereProducts.map(({img,title,star,reviews,prevPrice}) =>(
+    return filtereProducts.map(({img,title,star,reviews,newPrice,prevPrice}) =>(
     <card
       key = {Math.random()}
       img = {img}
@@ -62,6 +63,7 @@ function App() {
       star = {star}
       reviews = {reviews}
       newPrice = {newPrice}
+      prevPrice = {prevPrice}
     />    
     ))
   }
