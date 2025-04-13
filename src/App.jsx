@@ -7,6 +7,7 @@ import { useState } from "react";
 
 //-------Database-------
 import products from './db/data'
+import Category from "./Sidebar/Category/Category";
 
 function App() {
   const [selectedCategory, setselectedCategory] = useState(null)
@@ -34,6 +35,20 @@ function App() {
   }
 
 
+  function filterData(products,selected,query){
+    let filtereProducts = products
+
+    //filtering input items
+    if (query){
+      filtereProducts = filteredItems
+    }
+
+    //selected filter
+    if (selected){
+      filtereProducts = filtereProducts.filter({ category,color,company})
+    }
+
+  }
   return (
     <>
       <Sidebar/>
