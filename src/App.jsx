@@ -51,8 +51,17 @@ function App() {
          color === selected|| 
          company  === selected ||
          newPrice === selected||
-         title === selected)
+         title === selected);
     }
+
+    return filtereProducts.map(({img,title,star,reviews,prevPrice}) =>(
+    <card
+      key = {Math.random()}
+      img = {img}
+      title = {title}
+      star = {star}
+    />    
+    ))
   }
   return (
     <>
