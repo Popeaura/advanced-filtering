@@ -8,7 +8,7 @@ function Price() {
       <Input/>
       <Input/>
       <Input/>
-      <Input/>
+      <Input/> 
     </div>
   )
 }
