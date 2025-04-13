@@ -28,6 +28,12 @@ function App() {
     setselectedCategory(event.target.value)
   }
 
+  //------Buttons filter ----
+  const handleClick = event =>{
+    setselectedCategory(event.target.value)
+  }
+
+
   return (
     <>
       <Sidebar/>
