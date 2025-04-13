@@ -5,6 +5,9 @@ import Products from "./Products/Products";
 import Recommended from "./Recommended/Recommended";
 import { useState } from "react";
 
+//Database
+import products from './db/data'
+
 function App() {
   const [selectedCategory, setselectedCategory] = useState(null)
 
