@@ -24,6 +24,9 @@ function App() {
 
 
   //------Radio filter------
+  const handleChange = event => {
+    setselectedCategory(event.target.value)
+  }
 
   return (
     <>
