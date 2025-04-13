@@ -5,7 +5,8 @@ import "./Sidebar.css"
 import { BsCartFill } from "react-icons/bs";
 
 
-function Sidebar(){
+function Sidebar(handleChange){
+  
 return (
   <>
   <section className="sidebar">
@@ -13,9 +14,9 @@ return (
         <h1><BsCartFill /></h1>
     </div>
 
-    <Category/>
-    <Price/>
-    <Colors/>
+    <Category handleChange = {handleChange}/>
+    <Price handleChange = {handleChange}/>
+    <Colors handleChange = {handleChange}/>
 
   </section>
   </>   
