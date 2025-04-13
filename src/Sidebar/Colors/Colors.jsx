@@ -1,7 +1,7 @@
 const Colors = () => {
   return (
     <div>
-
+      <Input/>
     </div>
   );
 }
