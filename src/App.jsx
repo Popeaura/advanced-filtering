@@ -6,9 +6,10 @@ import Recommended from "./Recommended/Recommended";
 import { useState } from "react";
 
 function App() {
-  const [selectedCategory, selectedCategory] = useState(null)
+  const [selectedCategory, setselectedCategory] = useState(null)
 
-
+//input filter
+  const [query, setQuery] = useState("")
   return (
     <>
       <Sidebar/>
