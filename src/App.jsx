@@ -10,6 +10,10 @@ function App() {
 
 //input filter
   const [query, setQuery] = useState("")
+
+  const handleInputChange = event => {
+    setQuery(event.target.value)
+  }
   return (
     <>
       <Sidebar/>
