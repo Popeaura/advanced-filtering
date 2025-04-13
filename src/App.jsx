@@ -45,9 +45,13 @@ function App() {
 
     //selected filter
     if (selected){
-      filtereProducts = filtereProducts.filter(({ category,color,company,
-        newPrice, title}) => category === selected || color === selected || 
-        company  === selected || newPrice === selected || title === selected)
+      filtereProducts = filtereProducts.filter(
+        ({ category,color,company,newPrice, title}) =>
+         category === selected || 
+         color === selected|| 
+         company  === selected ||
+         newPrice === selected||
+         title === selected)
     }
   }
   return (
