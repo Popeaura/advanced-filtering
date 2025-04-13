@@ -1,7 +1,7 @@
 import Input from "../../components/Input";
 import "./Price.css"
 
-function Price() {
+function Price(h) {
   return (
     <div className="ml">
       <h2 className="sidebar-title price-title">Price</h2>

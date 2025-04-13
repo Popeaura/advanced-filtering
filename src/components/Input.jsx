@@ -1,4 +1,4 @@
- function Input() {
+ function Input(handleChange, value, title, name ,color) {
   return (
 
     <label className="sidebar-label-container">
