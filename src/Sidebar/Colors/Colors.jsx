@@ -11,12 +11,13 @@ const Colors = ({handleChange}) => {
 
   <Input
         handleChange={handleChange}
-        value={50}
-        title= "$0 - $50"
-        name= "test2"
+        value="black"
+        title= "Black"
+        name= "test1"
+        color="black"
         />
 
-<Input
+  <Input
         handleChange={handleChange}
         value={100}
         title= "$50 - $100"
