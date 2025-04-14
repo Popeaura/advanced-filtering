@@ -22,20 +22,20 @@ function Category({handleChange}) {
       
     <Input 
     handleChange = {handleChange}
-    value ="Sneakers"
-    title = "Sneakers"
+    value ="flats"
+    title = "flats"
     name = "test"
     />
 
     
     <Input 
     handleChange = {handleChange}
-    value ="Sneakers"
-    title = "Sneakers"
+    value ="sandals"
+    title = "Sandals"
     name = "test"
     /> 
-    
-     
+
+
     <Input 
     handleChange = {handleChange}
     value ="Sneakers"
