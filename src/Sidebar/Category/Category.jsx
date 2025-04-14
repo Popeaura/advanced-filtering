@@ -12,6 +12,36 @@ function Category({handleChange}) {
     <span className="checkmark"></span>All
   </label>
 
+    <Input 
+    handleChange = {handleChange}
+    value ="Sneakers"
+    title = "Sneakers"
+    name = "test"
+    />
+
+      
+    <Input 
+    handleChange = {handleChange}
+    value ="Sneakers"
+    title = "Sneakers"
+    name = "test"
+    />
+
+    
+    <Input 
+    handleChange = {handleChange}
+    value ="Sneakers"
+    title = "Sneakers"
+    name = "test"
+    /> 
+    
+     
+    <Input 
+    handleChange = {handleChange}
+    value ="Sneakers"
+    title = "Sneakers"
+    name = "test"
+    />
       </div>
     </div>
   );
