@@ -1,8 +1,8 @@
 .color-title{
     margin-top: 2rem;
 }
-
-.all{
-    background:linear-gradient(blue, crimson);
-
-}
+.checkmark.all {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border: 2px solid #000;
+  }
+  
