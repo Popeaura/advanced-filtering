@@ -41,6 +41,15 @@ const Colors = ({handleChange}) => {
         name= "test1"
         color='green'
         />
+
+
+<Input
+        handleChange={handleChange}
+        value= "green"
+        title= "Green"
+        name= "test1"
+        color='green'
+        />
     </div>
   );
 }
