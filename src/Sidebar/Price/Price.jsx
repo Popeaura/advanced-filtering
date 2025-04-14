@@ -9,6 +9,13 @@ function Price(handleChange) {
           <input onChange={handleChange} type="radio" value="" name="test2" />
           <span className="checkmark"></span>All
         </label>
+
+        <Input
+        handleChange={handleChange}
+        value={50}
+        title= "$0 - $50"
+        name= "test2"
+        />
     </div>
   )
 }
