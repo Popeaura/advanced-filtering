@@ -19,7 +19,7 @@ function Price(handleChange) {
 
 <Input
         handleChange={handleChange}
-        value={50}
+        value={100}
         title= "$0 - $50"
         name= "test2"
         />
@@ -27,14 +27,14 @@ function Price(handleChange) {
 
 <Input
         handleChange={handleChange}
-        value={50}
+        value={150}
         title= "$0 - $50"
         name= "test2"
         />
 
 <Input
         handleChange={handleChange}
-        value={50}
+        value={200}
         title= "$0 - $50"
         name= "test2"
         />
