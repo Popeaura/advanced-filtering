@@ -1,17 +1,15 @@
 import "./Category.css";
 import Input from "../../components/Input"; 
 
-function Category() {
+function Category({handleChange}) {
   return (
     <div>
       <h2 className="sidebar-title">Category</h2>
 
       <div>
-        <Input/>
-        <Input/>
-        <Input/>
-        <Input/>
-
+  <label className="sidebar-label-container">
+    <input onChange={handleChange} type="radio" />
+  </label>
 
       </div>
     </div>
