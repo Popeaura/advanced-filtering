@@ -45,10 +45,10 @@ const Colors = ({handleChange}) => {
 
 <Input
         handleChange={handleChange}
-        value= "green"
-        title= "Green"
+        value= "white"
+        title= "White"
         name= "test1"
-        color='green'
+        color='white'
         />
     </div>
   );
