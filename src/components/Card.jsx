@@ -17,7 +17,7 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
         </section>
         <section className="card-price">
           <div className="price">
-            <del></del> 200
+            <del>{prevPrice}</del>
           </div>
           <div className="bag">
           <BsFillBagHeartFill className="bag-icon" /> 
