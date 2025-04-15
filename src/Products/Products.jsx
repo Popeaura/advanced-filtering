@@ -4,9 +4,7 @@ import "./Products.css";
  function products({result}) {
   return (
   <>
-  <section className="card-container">
-
-  </section>
+  <section className="card-container">{result}</section>
   </>
   )
 }
