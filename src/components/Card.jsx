@@ -13,7 +13,7 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
         <section className="card-reviews">
         {star}  {star} {star}  {star}
 
-        <span className="total-reviews">4</span>
+        <span className="total-reviews">{reviews}</span>
         </section>
         <section className="card-price">
           <div className="price">
