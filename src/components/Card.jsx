@@ -5,8 +5,8 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
   return (
     <div>
    <section className="card">
-    <img src=
-     alt="Shoe"
+    <img src= {img}
+     alt={title}
      className="card-img"/>
     <div className="card-details">
       <h3 className="card-title">
