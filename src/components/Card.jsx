@@ -9,7 +9,7 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
      alt={title}
      className="card-img"/>
     <div className="card-details">
-      <h3 className="card-title">
+      <h3 className="card-title">{title}</h3>
         <section className="card-reviews">
         <AiFillStar className="rating-star"/>
         <AiFillStar className="rating-star"/>
@@ -26,7 +26,7 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
           <BsFillBagHeartFill className="bag-icon" /> 
           </div>
         </section>
-      </h3>
+    
     </div>
     </section>
     </div>
