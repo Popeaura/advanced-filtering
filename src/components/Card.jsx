@@ -11,7 +11,8 @@ function Card({img, title, star, reviews, prevPrice, newPrice }) {
     <div className="card-details">
       <h3 className="card-title">{title}</h3>
         <section className="card-reviews">
-     
+        {star}  {star} {star}  {star}
+
         <span className="total-reviews">4</span>
         </section>
         <section className="card-price">
