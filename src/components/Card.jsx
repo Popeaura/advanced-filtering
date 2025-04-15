@@ -1,7 +1,7 @@
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBagHeartFill } from "react-icons/bs";
 
-function Card() {
+function Card({img, title, star, reviews, prevPrice, newPrice }) {
   return (
     <div>
    <section className="card">
