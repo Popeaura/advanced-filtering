@@ -1,5 +1,5 @@
 function Button({onClickHandler,value, title}) {
-  return <button></button>
+  return <button onClick={onClickHandler}></button>
 }
 
 export default Button;
