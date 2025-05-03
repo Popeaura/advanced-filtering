@@ -1,4 +1,4 @@
-function Button() {
+function Button({onClickHandler,value}) {
   return (
     <div>Buttons</div>
   )

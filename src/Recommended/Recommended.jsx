@@ -1,6 +1,6 @@
 import "./Recommended.css"
 
- function Recommended() {
+ function Recommended(hand) {
   return (
   <>
   <div>
