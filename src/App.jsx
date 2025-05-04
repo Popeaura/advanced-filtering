@@ -15,8 +15,7 @@ function App() {
   const [query, setQuery] = useState("");
 
   const handleInputChange = (event) => {
-    setQuery(event.target.value);
-  
+    setQuery(event.target.va
   const filteredItems = products.filter(
     (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
   );
