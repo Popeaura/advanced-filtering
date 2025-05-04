@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import Card from "./components/Card";
 import "./index.css";
 
-function Ap\
+function App
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
