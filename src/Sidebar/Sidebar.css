@@ -13,7 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    overflow: auto;
+    scrollbar-width:none;
+  -ms-overflow-style: none;}
 
 .logo-container{
     margin-bottom:4rem ;
