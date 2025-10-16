@@ -24,3 +24,44 @@ nav {
     height: 1.5rem;
     margin-left: 2rem;
   }
+
+  .cart-button {
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+
+  .cart-button:hover {
+    transform: scale(1.1);
+  }
+
+  .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    animation: bounce 0.3s ease-in-out;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }

@@ -2,7 +2,7 @@ import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 import "./Nav.css";
 
-const Nav = ({ handleInputChange, query }) => {
+const Nav = ({ handleInputChange, query, onCartClick, cartItemCount }) => {
   return (
     <nav>
       <div className="nav-container">
@@ -18,10 +18,13 @@ const Nav = ({ handleInputChange, query }) => {
         <a href="#">
           <FiHeart className="nav-icons" />
         </a>
-        <a href="">
+        <button className="cart-button" onClick={onCartClick}>
           <AiOutlineShoppingCart className="nav-icons" />
-        </a>
-        <a href="">
+          {cartItemCount > 0 && (
+            <span className="cart-badge">{cartItemCount}</span>
+          )}
+        </button>
+        <a href="#">
           <AiOutlineUserAdd className="nav-icons" />
         </a>
       </div>

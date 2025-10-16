@@ -11,6 +11,14 @@
     border: 2px solid #ededed;
     padding: 20px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-color: #60a5fa;
   }
   
   .card-img {
@@ -44,4 +52,37 @@
   
   .bag-icon {
     color: #535353;
+  }
+
+  /* Product Info - Hidden by default, shown on hover */
+  .product-info {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e5e5;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover .product-info {
+    max-height: 200px;
+    opacity: 1;
+  }
+
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .info-label {
+    font-weight: 600;
+    color: #4b5563;
+  }
+
+  .info-value {
+    color: #1f2937;
+    font-weight: 500;
   }

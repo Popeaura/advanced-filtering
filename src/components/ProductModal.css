@@ -1,0 +1,306 @@
+/* Modal Backdrop */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal Content */
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp 0.3s ease-out;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close Button */
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #f3f4f6;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 10;
+  font-size: 20px;
+  color: #4b5563;
+}
+
+.modal-close-btn:hover {
+  background: #e5e7eb;
+  transform: rotate(90deg);
+}
+
+/* Modal Body */
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Image Section */
+.modal-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.modal-product-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Details Section */
+.modal-details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.modal-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Rating */
+.modal-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d5ab55;
+}
+
+.modal-reviews {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+}
+
+/* Price Section */
+.modal-price-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-old-price {
+  color: #9ca3af;
+  font-size: 1.25rem;
+}
+
+.modal-new-price {
+  color: #111827;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Product Info Grid */
+.modal-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.modal-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-info-label {
+  font-weight: 600;
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.modal-info-value {
+  color: #111827;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+/* Quantity Section */
+.modal-quantity-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.modal-quantity-label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #f3f4f6;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.quantity-btn {
+  background: white;
+  border: 1px solid #d1d5db;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  transition: all 0.2s;
+}
+
+.quantity-btn:hover:not(:disabled) {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.quantity-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quantity-display {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  min-width: 40px;
+  text-align: center;
+}
+
+/* Total */
+.modal-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-top: 2px solid #e5e7eb;
+}
+
+.modal-total-label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.modal-total-price {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+/* Confirm Order Button */
+.confirm-order-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
+}
+
+.confirm-order-btn:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.4);
+}
+
+.confirm-order-btn:active {
+  transform: translateY(0);
+}
+
+.confirm-btn-icon {
+  font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-content {
+    width: 95%;
+    max-height: 95vh;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+
+  .modal-new-price {
+    font-size: 1.5rem;
+  }
+}
+
